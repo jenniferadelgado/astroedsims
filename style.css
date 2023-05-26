@@ -1,5 +1,5 @@
 body {
-	background-color: lightblue;
+	background-color: darkblue;
 }
 
 .title {
@@ -10,72 +10,21 @@ body {
 
 .simulationarea {
 	position: relative;
-	width: 970px;
+	width: 1270px;
 	height: 860px;
 	margin: auto;
 	margin-top: 40px;
-	background-color: white;
-	border: solid red;
+	background-color: black;
+	border: solid blue;
 	border-width: 5px;
 	border-radius: 10px;
 }
 
 .sim1 {
-	border-color: red;
+	border-color: blue;
 	height: 760px;
 }
 
-.sim2 {
-	border-color: green;
-}
-
-.sim3 {
-	border-color: rgb(139, 39, 227);
-	height: 960px;
-}
-
-.sim4 {
-	border-color: blue;
-}
-
-.tabs {
-	position: absolute;
-	top: -35px;
-	width: 810px;
-	height: 30px;
-	padding-left: 10px;
-}
-
-.tab {
-	height: 100%;
-	background-color: white;
-	border: none;
-	border-radius: 10px 10px 0 0;
-	float: left;
-	color: white;
-	cursor: pointer;
-	transition-duration: 0.4s;
-}
-
-.tab:hover {
-	box-shadow: 0 0 5px 3px rgba(0,0,0,0.24);
-}
-
-.tab1 {
-	background-color: red;
-}
-
-.tab2 {
-	background-color: green;
-}
-
-.tab3 {
-	background-color: rgb(139, 39, 227);
-}
-
-.tab4 {
-	background-color: blue;
-}
 
 .toolbar {
 	position: absolute;
