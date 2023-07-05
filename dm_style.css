@@ -37,3 +37,6 @@ body {
   grid-template: repeat(30, 1fr) / repeat(30, 1fr);
   background: #212837;
 }
+.sim-space .masses{
+  background: #FF003D
+}
