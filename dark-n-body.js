@@ -3,7 +3,7 @@ const simSpace = document.querySelector(".sim-space");
 
 let massX = 33, massY = 10;
 const initSim = () => {
-  let htmlMarkup = `<div class ="masses" sytle="grid-area: ${massY} / ${massX}"></div>`;
+  let htmlMarkup = ``;
   simSpace.innerHTML = htmlMarkup;
 }
 initSim()
